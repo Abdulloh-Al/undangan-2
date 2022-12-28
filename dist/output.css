@@ -563,6 +563,26 @@ video {
   left: 125px;
 }
 
+.left-\[110px\] {
+  left: 110px;
+}
+
+.left-\[120px\] {
+  left: 120px;
+}
+
+.left-\[100px\] {
+  left: 100px;
+}
+
+.left-\[90px\] {
+  left: 90px;
+}
+
+.left-\[75px\] {
+  left: 75px;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -598,6 +618,10 @@ video {
 
 .mb-2 {
   margin-bottom: 0.5rem;
+}
+
+.ml-2 {
+  margin-left: 0.5rem;
 }
 
 .flex {
@@ -751,4 +775,10 @@ video {
 
 .opacity-40 {
   opacity: 0.4;
+}
+
+@media (min-width: 768px) {
+  .md\:left-\[125px\] {
+    left: 125px;
+  }
 }
